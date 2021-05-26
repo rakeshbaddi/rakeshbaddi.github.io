@@ -1,0 +1,264 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #999999;
+  background: black;
+}
+
+
+@media (max-width: 800px) {
+  #home {
+    text-align: center;
+  }
+}
+
+.container-fluid {
+  padding: 1% 15%;
+}
+
+.btn {
+  background-color: #ffbd39;
+  color: black;
+  border-radius: 50px;
+  border: none;
+  padding: 10px 15px;
+  letter-spacing: 2px;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.black-btn {
+  margin: 30px auto;
+  padding: 10px 30px;
+}
+
+.black-btn:hover {
+  border: 2px solid #ffbd39;
+  color: white;
+}
+
+.orange-text {
+  color: #ffbd39;
+}
+
+.white-text {
+  color: white;
+}
+
+.sub-heading {
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.sub-heading-big {
+  font-size: 6rem;
+  color: grey;
+  opacity: 20%;
+  margin: -60px -30px 20px -30px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.nav-link:hover, .navbar-brand:hover {
+  transform: scale(1.1);
+  color: #ffbd39;
+}
+
+/* Home Section */
+
+.navbar {
+  margin-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 0.5;
+  color: white;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.fa-bars {
+  color: #ffbd39;
+  font-size: 1.5rem;
+  border: 2px solid #ffbd39;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.nav-item {
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding: 0 15px;
+}
+
+.nav-link {
+  color: white;
+}
+
+#home {
+  margin-bottom: 50px;
+}
+
+#greeting-heading {
+  font-size: 4rem;
+  font-weight: 900;
+  color: white;
+}
+
+#greeting-sub {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: white;
+  margin: 0;
+}
+
+.my-name {
+  color: #ffbd39;
+}
+
+.my-img {
+  border: 5px solid #ffbd39;
+  border-radius: 50%;
+}
+
+/* About Section */
+
+#about {
+  background: white;
+}
+
+.profile-row {
+  margin-bottom: 100px;
+  text-align: left;
+}
+
+.profile-image {
+  width: 150px;
+  float: left;
+  margin-right: 50px;
+  margin-top: -20px;
+}
+
+.profile-image-tcs {
+  height: 100px;
+  width: 150px;
+  float: left;
+  margin-right: 50px;
+}
+
+.pro-title {
+  font-weight: 700;
+  color: black;
+  opacity: 80%;
+}
+
+.profile-sub {
+  margin: 50px 0;
+  font-weight: 500;
+  color: black;
+}
+
+/* Skills Section */
+
+.skills-table {
+  font-size: 1.2rem;
+  line-height: 3rem;
+  width: 70%;
+  margin: 50px auto;
+}
+
+.skills-table img {
+  margin-right: 15px;
+}
+
+/* Projects Section */
+
+hr {
+  color: #ffbd39;
+  opacity: 100%;
+}
+
+#projects {
+  text-align: center;
+}
+
+.card {
+  max-width: 200px;
+}
+
+.card-area {
+  margin-top: 60px;
+}
+
+.card-title {
+  color: black;
+  text-align: left;
+}
+
+.card-text {
+  color: #575551;
+  text-align: left;
+}
+
+.col-lg-3, .col-md-4, .col-sm-4 {
+  padding: 2%;
+}
+
+.d-grid {
+  padding: 10px;
+}
+
+/* Contact Section */
+
+#contact {
+  background: white;
+  text-align: center;
+}
+
+.icon-link {
+  margin: 0 10px;
+}
+
+.icon-link:hover {
+  transform: scale(1.2);
+}
+
+.call-btn {
+  width: 500px;
+  background: black;
+  color: #ffbd39;
+  letter-spacing: 1px;
+  margin: 100px auto 0 auto;
+}
+
+.email-btn {
+  margin-bottom: 50px;
+  width: 500px;
+  letter-spacing: 1px;
+}
+
+.email-btn:hover, .call-btn:hover{
+  background: none;
+  color: black;
+  border: 1px solid black;
+}
+
+.social {
+  margin-bottom: 150px;
+}
+
+/* Footer */
+
+#footer {
+  text-align: center;
+  color: white;
+  font-weight: 300;
+}
