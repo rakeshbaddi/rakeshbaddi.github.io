@@ -140,6 +140,10 @@ body {
 
 /* About Section */
 
+#certifications {
+  background: white;
+}
+
 #about {
   background: white;
 }
